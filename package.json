@@ -1,0 +1,24 @@
+{
+  "name": "surendar-yama-joy",
+  "version": "1.0.0",
+  "description": "surendar yama joy javascript library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SurendarYama/joy.git"
+  },
+  "keywords": [
+    "surendar",
+    "yama",
+    "joy"
+  ],
+  "author": "Surendar Yama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SurendarYama/joy/issues"
+  },
+  "homepage": "https://github.com/SurendarYama/joy#readme"
+}
