@@ -2,11 +2,11 @@ export const joy = () => {
     const useReducer = (initialState, reducer) => {
         let globalState = initialState;
         let state = () => globalState;
-        const isArray = Array.isArray(initialState);
+        const isArray = (params) => Array.isArray(params);
         const initialStateTypeCheck = (
             typeof initialState === 'undefined' || 
             typeof initialState !== 'object' ||
-             isArray
+             isArray(initialState)
             );
         const reducerTypeCheck  = (typeof reducer === 'undefined' || typeof reducer !== 'function');
         if( initialStateTypeCheck || reducerTypeCheck ) {
@@ -19,7 +19,7 @@ export const joy = () => {
             return globalState = state;
         };
         const dispatch = (action) => {
-            if(typeof action !== 'object' || isArray){
+            if(typeof action !== 'object' || isArray(action)){
                 throw new Error("typeof action must be Object 🧨");
             }
             if(!action.hasOwnProperty('type')){
