@@ -4,6 +4,10 @@
   "description": "surendar yama joy library allow you to use useReducer hook in javascript for both client and server side.",
   "main": "index.js",
   "type": "module",
+  "exports":{
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
