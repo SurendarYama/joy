@@ -1,7 +1,7 @@
 {
   "name": "surendar-yama-joy",
   "version": "1.0.4",
-  "description": "surendar yama joy javascript library",
+  "description": "surendar yama joy library allow you to use useReducer hook in javascript for both client and server side.",
   "main": "index.js",
   "type": "module",
   "scripts": {
