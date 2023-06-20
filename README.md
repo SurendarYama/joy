@@ -3,7 +3,7 @@
 surendar-yama-joy library allow you to use useReducer hook in javascript for both client and server side.
 
 ```
-    npm install surendar-yama-joy
+    npm i surendar-yama-joy
 ```
 
 ####  In client side please use any build tool like [parceljs](https://parceljs.org/)
