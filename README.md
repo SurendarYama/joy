@@ -1,4 +1,4 @@
-# joy
+# surendar-yama-joy
 
 surendar-yama-joy library allow you to use useReducer hook in javascript for both client and server side.
 
