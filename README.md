@@ -9,14 +9,14 @@ surendar-yama-joy library allow you to use useReducer hook in javascript for bot
 ####  In client side please use any build tool like [parceljs](https://parceljs.org/)
 ### Commonjs module import
 ```
-    const pkg = require("surendar-yama-joy");
-    const {joy} = pkg;
+    const { joyReducer } = require("surendar-yama-joy");
+
 ```
 
 ### ES Module import 
 ```
+import { joyReducer } from "surendar-yama-joy"
 
-import { joy } from "surendar-yama-joy";
 const onDomContentLoaded = () => {
     const initialState = {
         count:0
@@ -31,22 +31,22 @@ const onDomContentLoaded = () => {
                     return state
             }
     }
-    const {useReducer} = joy();
-    const [state, dispatch] = useReducer(initialState , reducerFn);
+   
+    const [getState, dispatch] = joyReducer(initialState , reducerFn);
 
-    console.log(state())
+    console.log(getState())
     dispatch({
         type :"increment",
     })
-    console.log(state())
+    console.log(getState())
     dispatch({
         type :"increment",
     })
-    console.log(state())
+    console.log(getState())
     dispatch({
         type :"decrement",
     })
-    console.log(state())
+    console.log(getState())
 
 }
 document.addEventListener("DOMContentLoaded", onDomContentLoaded)

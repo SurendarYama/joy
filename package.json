@@ -1,7 +1,7 @@
 {
   "name": "surendar-yama-joy",
-  "version": "1.0.7",
-  "description": "surendar-yama-joy library allow you to use useReducer hook in javascript for both client and server side.",
+  "version": "1.0.8",
+  "description": "surendar-yama-joy library allow you to use joyReducer hook in javascript for both client and server side.",
   "main": "index.js",
   "type": "module",
   "exports":{
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SuperZero17/surendar-yama-joy.git"
+    "url": "git+https://github.com/SurendarYama/surendar-yama-joy.git"
   },
   "keywords": [
     "surendar",
@@ -24,7 +24,7 @@
   "author": "Surendar Yama",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SuperZero17/surendar-yama-joy/issues"
+    "url": "https://github.com/SurendarYama/surendar-yama-joy/issues"
   },
-  "homepage": "https://github.com/SuperZero17/surendar-yama-joy#readme"
+  "homepage": "https://github.com/SurendarYama/surendar-yama-joy#readme"
 }
