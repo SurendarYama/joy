@@ -1,15 +1,15 @@
 # surendar-yama-joy
 
-surendar-yama-joy library allow you to use useReducer hook in javascript for both client and server side.
+surendar-yama-joy library allow you to use joyReducer hook in javascript for both client and server side.
 
 ```
-    npm i surendar-yama-joy
+npm i surendar-yama-joy
 ```
 
 ####  In client side please use any build tool like [parceljs](https://parceljs.org/)
 ### Commonjs module import
 ```
-    const { joyReducer } = require("surendar-yama-joy");
+const { joyReducer } = require("surendar-yama-joy");
 
 ```
 
