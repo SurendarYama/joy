@@ -4,6 +4,6 @@ declare module 'surendar-yama-joy' {
         reducerFn: (state: object, action:{type: string, payload?: any}) => any 
         ): [
             () => object,
-            () => any
+            (action:object) => void
         ]
 }
