@@ -1,6 +1,6 @@
 {
   "name": "surendar-yama-joy",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "surendar-yama-joy library allow you to use joyReducer hook in javascript for both client and server side.",
   "main": "index.js",
   "type": "module",
