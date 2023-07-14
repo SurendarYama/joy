@@ -1,4 +1,3 @@
-
 const joyReducer = (initialState, reducer) => {
     let globalState = initialState;
     let getState = () => globalState;
